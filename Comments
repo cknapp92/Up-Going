@@ -1,0 +1,13 @@
+b = a + 1;  // A single line commment versus...
+
+var a = 50;
+
+/* ...A multiple line 
+                  com...
+                        ...ment
+                                */
+a ++;
+a *2;
+
+var b = /* another comment here */ 25;
+console.log( b );   // And here
