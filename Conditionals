@@ -1,0 +1,17 @@
+var heavy_weight = 200
+var your_weight = 150
+
+if( your_weight < heavy_weight ) {
+      console.log( "You're too light to fight." );
+} // You're too light to fight.
+
+var credit_card = 24.92
+var membership = 29.95
+
+if( membership < credit_card) {
+      console.log( "I'll buy the membership." );
+}
+
+else {
+      console.log( "I can't afford the membership today." );
+} // I can't afford the membership today.
