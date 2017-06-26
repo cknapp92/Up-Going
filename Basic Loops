@@ -1,0 +1,15 @@
+var chips = 10
+
+while (chips > 0) {
+	console.log( "Eat another chip!" );
+
+	chips = chips - 1;
+} // Eat another chip! (x10)
+
+var chips = 5
+
+do {
+	console.log( "Eat one more chip..." );
+
+	chips = chips - 1;
+} while (chips > 0); // Eat one more chip (x5)
