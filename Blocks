@@ -1,0 +1,15 @@
+// is money big enough?
+
+var money = 11;
+
+if (money > 10) {		
+	money = money * 3;
+	console.log( money );
+  } // 33
+  
+var money = 9;
+
+if (money > 10) {		
+	money = money * 3;
+	console.log( money );
+  } // undefined

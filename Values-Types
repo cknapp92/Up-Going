@@ -1,0 +1,13 @@
+'String'
+"String"
+
+27;
+
+false;
+true;
+
+var a = "27";
+var b = Number( a );
+
+console.log( a ); // "27"
+console.log( b ); // 27
