@@ -1,0 +1,11 @@
+const proptax = 0.18
+
+function newhomevalue(amt) { 
+
+amt = amt + (amt * proptax)
+return amt;
+}
+
+var amount = 20117;
+amount = newhomevalue(amount);
+console.log(amount.toFixed(2)); // 23738.06
